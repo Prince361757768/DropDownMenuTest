@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9352B1721D0116A8009FCA4B /* PHSceneSortTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9352B1701D0116A8009FCA4B /* PHSceneSortTableViewCell.m */; };
+		9352B1731D0116A8009FCA4B /* PHSceneSortTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9352B1711D0116A8009FCA4B /* PHSceneSortTableViewCell.xib */; };
+		9352B1861D01265F009FCA4B /* PHSceneSortRightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9352B1841D01265F009FCA4B /* PHSceneSortRightCell.m */; };
+		9352B1871D01265F009FCA4B /* PHSceneSortRightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9352B1851D01265F009FCA4B /* PHSceneSortRightCell.xib */; };
 		9545A3BE1CFD767D009F509C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9545A3BD1CFD767D009F509C /* main.m */; };
 		9545A3C11CFD767D009F509C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9545A3C01CFD767D009F509C /* AppDelegate.m */; };
 		9545A3C41CFD767D009F509C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9545A3C31CFD767D009F509C /* ViewController.m */; };
@@ -15,6 +19,11 @@
 		9545A3CC1CFD767D009F509C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9545A3CA1CFD767D009F509C /* LaunchScreen.storyboard */; };
 		9545A3D71CFD767D009F509C /* DropDownMenuTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9545A3D61CFD767D009F509C /* DropDownMenuTestTests.m */; };
 		9545A3E21CFD767D009F509C /* DropDownMenuTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9545A3E11CFD767D009F509C /* DropDownMenuTestUITests.m */; };
+		9545A3F31CFD777E009F509C /* icon_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9545A3EF1CFD777E009F509C /* icon_down@2x.png */; };
+		9545A3F41CFD777E009F509C /* icon_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9545A3F01CFD777E009F509C /* icon_down@3x.png */; };
+		9545A3F51CFD777E009F509C /* icon_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9545A3F11CFD777E009F509C /* icon_up@2x.png */; };
+		9545A3F61CFD777E009F509C /* icon_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9545A3F21CFD777E009F509C /* icon_up@3x.png */; };
+		9545A3FD1CFD81AC009F509C /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9545A3FC1CFD81AC009F509C /* MenuView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9352B16F1D0116A8009FCA4B /* PHSceneSortTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHSceneSortTableViewCell.h; sourceTree = "<group>"; };
+		9352B1701D0116A8009FCA4B /* PHSceneSortTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHSceneSortTableViewCell.m; sourceTree = "<group>"; };
+		9352B1711D0116A8009FCA4B /* PHSceneSortTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PHSceneSortTableViewCell.xib; sourceTree = "<group>"; };
+		9352B1831D01265F009FCA4B /* PHSceneSortRightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHSceneSortRightCell.h; sourceTree = "<group>"; };
+		9352B1841D01265F009FCA4B /* PHSceneSortRightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHSceneSortRightCell.m; sourceTree = "<group>"; };
+		9352B1851D01265F009FCA4B /* PHSceneSortRightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PHSceneSortRightCell.xib; sourceTree = "<group>"; };
 		9545A3B91CFD767D009F509C /* DropDownMenuTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropDownMenuTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9545A3BD1CFD767D009F509C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9545A3BF1CFD767D009F509C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +66,13 @@
 		9545A3DD1CFD767D009F509C /* DropDownMenuTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropDownMenuTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9545A3E11CFD767D009F509C /* DropDownMenuTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropDownMenuTestUITests.m; sourceTree = "<group>"; };
 		9545A3E31CFD767D009F509C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9545A3EF1CFD777E009F509C /* icon_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_down@2x.png"; sourceTree = "<group>"; };
+		9545A3F01CFD777E009F509C /* icon_down@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_down@3x.png"; sourceTree = "<group>"; };
+		9545A3F11CFD777E009F509C /* icon_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_up@2x.png"; sourceTree = "<group>"; };
+		9545A3F21CFD777E009F509C /* icon_up@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_up@3x.png"; sourceTree = "<group>"; };
+		9545A3FA1CFD7F46009F509C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9545A3FB1CFD81AC009F509C /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		9545A3FC1CFD81AC009F509C /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +127,19 @@
 				9545A3C01CFD767D009F509C /* AppDelegate.m */,
 				9545A3C21CFD767D009F509C /* ViewController.h */,
 				9545A3C31CFD767D009F509C /* ViewController.m */,
+				9545A3FB1CFD81AC009F509C /* MenuView.h */,
+				9545A3FC1CFD81AC009F509C /* MenuView.m */,
+				9545A3FA1CFD7F46009F509C /* PrefixHeader.pch */,
+				9352B16F1D0116A8009FCA4B /* PHSceneSortTableViewCell.h */,
+				9352B1701D0116A8009FCA4B /* PHSceneSortTableViewCell.m */,
+				9352B1711D0116A8009FCA4B /* PHSceneSortTableViewCell.xib */,
+				9352B1831D01265F009FCA4B /* PHSceneSortRightCell.h */,
+				9352B1841D01265F009FCA4B /* PHSceneSortRightCell.m */,
+				9352B1851D01265F009FCA4B /* PHSceneSortRightCell.xib */,
+				9545A3EF1CFD777E009F509C /* icon_down@2x.png */,
+				9545A3F01CFD777E009F509C /* icon_down@3x.png */,
+				9545A3F11CFD777E009F509C /* icon_up@2x.png */,
+				9545A3F21CFD777E009F509C /* icon_up@3x.png */,
 				9545A3C51CFD767D009F509C /* Main.storyboard */,
 				9545A3C81CFD767D009F509C /* Assets.xcassets */,
 				9545A3CA1CFD767D009F509C /* LaunchScreen.storyboard */,
@@ -243,8 +278,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9545A3F51CFD777E009F509C /* icon_up@2x.png in Resources */,
+				9545A3F41CFD777E009F509C /* icon_down@3x.png in Resources */,
 				9545A3CC1CFD767D009F509C /* LaunchScreen.storyboard in Resources */,
+				9545A3F61CFD777E009F509C /* icon_up@3x.png in Resources */,
+				9352B1871D01265F009FCA4B /* PHSceneSortRightCell.xib in Resources */,
+				9545A3F31CFD777E009F509C /* icon_down@2x.png in Resources */,
 				9545A3C91CFD767D009F509C /* Assets.xcassets in Resources */,
+				9352B1731D0116A8009FCA4B /* PHSceneSortTableViewCell.xib in Resources */,
 				9545A3C71CFD767D009F509C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,8 +312,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9545A3C41CFD767D009F509C /* ViewController.m in Sources */,
+				9352B1721D0116A8009FCA4B /* PHSceneSortTableViewCell.m in Sources */,
 				9545A3C11CFD767D009F509C /* AppDelegate.m in Sources */,
+				9352B1861D01265F009FCA4B /* PHSceneSortRightCell.m in Sources */,
 				9545A3BE1CFD767D009F509C /* main.m in Sources */,
+				9545A3FD1CFD81AC009F509C /* MenuView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +457,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DropDownMenuTest/PrefixHeader.pch";
 				INFOPLIST_FILE = DropDownMenuTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucky.DropDownMenuTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +470,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DropDownMenuTest/PrefixHeader.pch";
 				INFOPLIST_FILE = DropDownMenuTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucky.DropDownMenuTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +544,7 @@
 				9545A3E81CFD767D009F509C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9545A3E91CFD767D009F509C /* Build configuration list for PBXNativeTarget "DropDownMenuTestTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +553,7 @@
 				9545A3EB1CFD767D009F509C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9545A3EC1CFD767D009F509C /* Build configuration list for PBXNativeTarget "DropDownMenuTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +562,7 @@
 				9545A3EE1CFD767D009F509C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
